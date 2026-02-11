@@ -1,0 +1,6 @@
+{
+  "base_path": "/PATH/TO/YOUR/FINANCE_ROOT",
+  "llm_url": "http://localhost:1234/v1/chat/completions",
+  "excel_path": "finance_master.xlsx",
+  "inbox_path": "inbox_review.xlsx"
+}

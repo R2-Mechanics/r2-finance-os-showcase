@@ -1,0 +1,29 @@
+# Public showcase repo: keep it clean
+.env
+*.env
+maus_config.json
+
+# keys / certs
+**/*.key
+**/*.pem
+**/*.p12
+
+# never commit real finance artifacts
+**/*.xlsx
+**/*.xls
+**/*.csv
+**/*.pdf
+**/*.html
+**/*.db
+**/*.sqlite
+**/Inbox_Analog/**
+**/Inbox_Digital/**
+**/Inbox_Bank/**
+**/Archive/**
+**/Buchung/**
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
